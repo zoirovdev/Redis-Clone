@@ -1,0 +1,58 @@
+# Compiled object files, static and dynamic libs
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.lib
+
+# Executable files
+*.exe
+*.out
+*.app
+*.elf
+
+# Debug and profiling files
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+*.prof
+*.profraw
+
+# Build and dependency directories
+/build/
+/bin/
+/obj/
+/lib/
+
+# Editor and OS-specific files
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+
+# CMake and Makefile artifacts
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# Logs and temporary files
+*.log
+*.pid
+*.stackdump
+
+# GDB and Valgrind files
+.gdb_history
+.gdbinit
+.valgrind-out.txt
+
+# Generated documentation
+/docs/doxygen/
+/docs/html/
+
